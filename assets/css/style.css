@@ -1,0 +1,64 @@
+*{
+    font-family: ;
+}
+
+body{
+    background-color: rgb(60, 59, 59);
+}
+
+
+header{
+    color: rgb(190, 67, 215);
+   text-align: center; 
+   font-size: 35px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: rgb(190, 67, 215);
+   position: relative;
+   margin-top: -20px;
+   text-align: center;
+   border: 1px white;
+   border-style:solid;
+   border-radius: 25px;
+}
+
+main{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex{
+
+    width:29%;
+    margin: 2%;
+    border-style: dotted 3px;
+    border-color:rgb(190, 67, 215);
+}
+
+@media (min-width:769px) and (max-width:1150px){
+    .flex{
+    flex-direction:column;
+    width:46%;
+    }
+}
+
+@media (max-width:768px){
+    .flex{
+    flex-direction:column;
+    width:100%;
+    }
+}
+
+     
+
+   
